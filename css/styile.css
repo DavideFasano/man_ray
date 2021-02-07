@@ -2,7 +2,11 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+   height: 100vh;
+}
+
+.column-start{
+    padding: 0px;
 }
 
 
@@ -10,10 +14,11 @@ body{
 .start-image{
     margin: 0;
     position: relative;
+    
 }
 .start-image-col{
-    width: 100%;
-    height: 100%;
+    width: 100% ;
+    height: 100vh;
     display: block;
     object-fit: cover;
 }
