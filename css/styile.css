@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+
+/* immagini pagina start */
+.start-image{
+    margin: 0;
+    position: relative;
+}
+.start-image-col{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.start-image-hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.2);
+    padding-top: 50%;
+    font-size: 3rem;
+    font-style: italic;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+    
+}
+
+.start-image-hover:hover{
+    opacity: 1;
+}
+
+a:link, a:visited {    
+    text-decoration: none;   
+}
