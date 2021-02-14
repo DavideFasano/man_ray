@@ -28,6 +28,8 @@ body{
 .start-image{
     margin: 0;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 .start-image-col{
@@ -35,6 +37,7 @@ body{
     height: 100vh;
     display: block;
     object-fit: cover;
+    
 }
 .start-image-hover{
     width: 100%;
@@ -129,6 +132,14 @@ a:link, a:visited {
     -webkit-text-stroke-width: 1px;
     margin: 1rem;
 }
+
+.image-icon{
+    scale: 0.8;
+    border-radius: 25px;
+    
+}
+
+
 
 
 /*
