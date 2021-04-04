@@ -4,6 +4,7 @@
 body{
    height: 100vh;
    background-color: white;
+   overflow-x: hidden;
 }
 
 .column-start{
